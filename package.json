@@ -1,0 +1,33 @@
+{
+  "name": "jshw-27",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "websocket.js",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenakokina/JSHW-27.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lenakokina/JSHW-27/issues"
+  },
+  "homepage": "https://github.com/lenakokina/JSHW-27#readme",
+  "dependencies": {
+    "css-loader": "^6.2.0",
+    "jquery": "^3.6.0",
+    "style-loader": "^3.2.1",
+    "ws": "^8.1.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "description": ""
+}
